@@ -30,9 +30,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-The biggest difference
+The biggest difference between `.forEach` and `.map` is that `forEach()` executes the callback function once for each array element; unlike `map()` or `reduce()` it always returns the value undefined and is not chainable.
 
 2. What is the difference between a function and a method?
+
+In JavaScript functions themselves are objects, so, in that context, a method is actually an object reference to a function.
 
 3. What is closure?
 
