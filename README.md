@@ -38,9 +38,18 @@ In JavaScript functions themselves are objects, so, in that context, a method is
 
 3. What is closure?
 
+Closure is a collection of all the variables and steps within scope or within {curlybrackets} at the time a function gets created.
+
 4. Describe the four rules of the 'this' keyword.
 
+    a. `this` will check if the `function` is called by the `new` keyword
+    b. `this` will check if the `function` is called by `call()`, `apply()`, or `bind()`
+    c.  Will check if it is being called as a method
+    d. Then finally will check if its called in the global scope. it returns the global object `window` or if strict is enabled it will return undefined.
+ 
 5. Why do we need super() in an extended class?
+
+So we can get access to the methods and properties of the parent class and its extended clases
 
 ## Project Set up
 
